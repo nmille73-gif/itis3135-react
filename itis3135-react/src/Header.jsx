@@ -1,0 +1,12 @@
+export default function Header() {
+    return (<header>
+        <h1>Nora Miller's Neurotic Manatee || ITIS3135</h1>
+        <nav>
+            <p>
+            <a href="./">Home</a> ||
+            <a href="introduction.html">Introduction</a> ||
+            <a href="contract.html">Contract</a>
+            </p>
+           </nav>
+    </header>);
+}
