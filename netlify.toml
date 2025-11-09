@@ -1,0 +1,4 @@
+[build]
+  base = "itis3135-react"
+  command = "npm run build"
+  publish = "itis3135-react/dist"
