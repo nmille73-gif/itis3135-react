@@ -1,5 +1,5 @@
 export default function Introduction() {
-  document.title += " - " + "Introduction";
+  document.title += " || " + "Introduction";
   return (
     <main>
       <h2>Introduction</h2>

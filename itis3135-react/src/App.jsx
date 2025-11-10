@@ -7,9 +7,7 @@ import Home from './Home';
 import Introduction from './Introduction';
 import Contract from './Contract';
 
-const pageName = "Home";
 function App() {
-  document.title += " - " + pageName;
   useEffect(() => {
     const script = document.createElement('script');
     script.src = "https://kit.fontawesome.com/4d0fe3.js";
