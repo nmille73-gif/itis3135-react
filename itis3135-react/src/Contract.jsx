@@ -1,4 +1,5 @@
 export default function Contract() {
+  document.title += " - " + "Contract";
   return (
     <main>
       <h2>Contract</h2>
