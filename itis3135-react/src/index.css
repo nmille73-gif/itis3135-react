@@ -110,3 +110,21 @@ main ol {
     margin-right: auto;
     text-align: left;
 }
+
+article p {
+    margin: 10px 0;
+}
+
+article {
+    margin: 20px 0;
+    padding: 15px;
+}
+
+article ul{
+    max-width: 1200px;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    padding-left: 40px;
+    text-align: left;
+    list-style-type: disc;
+}

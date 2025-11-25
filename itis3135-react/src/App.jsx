@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Home from './Home';
 import Introduction from './Introduction';
 import Contract from './Contract';
+import Introductions from './Introductions';
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/contract" element={<Contract />} />
+        <Route path="/introductions" element={<Introductions />} />
       </Routes>
       <Footer />
     </BrowserRouter>
