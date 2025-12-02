@@ -128,3 +128,12 @@ article ul{
     text-align: left;
     list-style-type: disc;
 }
+
+article ul ol {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.personal-statement {
+    text-align: left;
+}
